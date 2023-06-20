@@ -1,4 +1,4 @@
-# Pycasts Content Aggregator
+# PyCasts Content Aggregator
 
 ## Set up Virtual Env (in Windows Powershell)
 
