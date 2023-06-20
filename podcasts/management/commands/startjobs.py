@@ -71,7 +71,7 @@ class Command(BaseCommand):
         scheduler.add_job(
             fetch_realpython_episodes,
             trigger="interval",
-            minutes=2,
+            hours = 2,
             id="The Real Python Podcast",
             max_instances=1,
             replace_existing=True,
@@ -81,7 +81,7 @@ class Command(BaseCommand):
         scheduler.add_job(
             fetch_talkpython_episodes,
             trigger="interval",
-            minutes=2,
+            hours = 2,
             id="Talk Python Feed",
             max_instances=1,
             replace_existing=True,
