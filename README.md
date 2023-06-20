@@ -7,7 +7,7 @@ Initialize virtual env: 'python3 -m venv .venv'
 Activate virtual env: '.venv/Scripts/Activate.ps1'
 
 ## How to Run
-1. Open two instances of PowerShell in the project directory (.../pycasts)
+1. Open two instances of PowerShell in the project directory
 2. Activate virtual env in both with '.venv/Scripts/Activate.ps1'
 3. Run 'python manage.py startjobs' in one Powershell Instance
 4. Run 'python manage.py runserver' in the other instance
